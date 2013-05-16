@@ -20,6 +20,6 @@ require('fs').readFile(__dirname + '/index.html', function (err, data) {
         });
 
         // We can chain the function calls to setup and start the blobload server
-        blobloadServer.setup(1337, 0, 0, 3, 10, null, null, null).setHttpAccessData(200, data).start();
+        blobloadServer.setup(8080, 0, 0, 3, 10, null, null, null).setHttpAccessData(200, data).start();
     }
 });

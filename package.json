@@ -1,0 +1,16 @@
+{
+  "name": "blobload",
+  "version": "0.0.0",
+  "description": "HTML5 file uploader using node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "socket.io": "0.9.14"
+  },
+  "repository": "https://github.com/thomaspeeters/blobload.git",
+  "author": "Bram Cordie, Prince Ansong, Thomas Peeters",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
